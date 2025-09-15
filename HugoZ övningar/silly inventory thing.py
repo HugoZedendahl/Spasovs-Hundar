@@ -7,7 +7,8 @@ inventory = {
     "elva": 1,
     "höppa": 1,
     }
-
+# you can also use 2 lists and and store the items and their amounts in the same index position. burt for this specific case
+# a dictionary is better (in my personal opinion) //HZ
 while gather:
     mode = str.lower(input("what item(s) do you want to query? :"))
     match mode:
