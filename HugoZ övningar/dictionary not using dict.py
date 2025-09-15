@@ -2,7 +2,7 @@ swedishStringList = ["hund", "katt", "ödla", "häst", "ko", "kanin"]
 englishStringList = ["dog", "cat", "lizzard", "horse", "cow", "rabbit"]
 indexValue = None
 
-while indexValue != " ":
+while indexValue != "":
     indexValue = input("skriv ditt ord: ")
     indexValue = indexValue.lower()
     if indexValue in swedishStringList:
