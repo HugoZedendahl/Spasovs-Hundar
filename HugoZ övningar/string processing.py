@@ -8,7 +8,8 @@ totalWords = 0
 firstWord = False
 
 #this is a very inefificient way of doing this, but since we have not learned about slicing yet, this is functional enough
-#it also does not account for special symbols like !"#¤%&/()=?:,. etc //HZ
+#it also does not account for special symbols like !"#¤%&/()=?:,. etc i think a regex would be ideal for this. 
+#i however, do not know how to properly use them at all and they scare me.  //HZ
 
 for x in string:
     if x != " ":
