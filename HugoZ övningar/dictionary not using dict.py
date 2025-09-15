@@ -11,7 +11,9 @@ while indexValue != "":
     elif indexValue in englishStringList:
         print("ditt ord på svenska är: ", swedishStringList[englishStringList.index(indexValue)])
 
-    else:
+    elif indexValue is not "":
         print("ditt ord finns inte i vår ordbok")
 
 #simple and effective. find the index of the input and use that to print the corresponding word from the other language. //HZ 
+
+print("closing app")
