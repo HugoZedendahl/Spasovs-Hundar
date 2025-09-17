@@ -1,5 +1,4 @@
-string = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam molestie, libero quis rhoncus luctus, risus est feugiat sem, eget rutrum risus ipsum nec ipsum. Proin purus sapien, euismod sit amet commodo ac, ornare ac diam. Ut venenatis, erat sit amet dictum vulputate, nisl turpis consectetur eros, a iaculis tortor purus ut magna. Vivamus tincidunt aliquam egestas. In fermentum vestibulum diam, id bibendum metus fringilla vel. Curabitur sed libero commodo, commodo arcu quis, blandit mi. Aliquam erat volutpat. Nunc posuere, orci eget venenatis tincidunt, tortor tortor iaculis ex, eget fringilla urna felis a elit. Proin eu egestas mauris. Donec vehicula interdum neque, vel porta odio mollis nec. Vestibulum posuere venenatis iaculis. Cras vitae augue et sapien dapibus facilisis ac eget lectus. Maecenas sem felis, pulvinar sit amet mi ut, suscipit pulvinar velit. Nunc nisi elit, porttitor quis vehicula imperdiet, pellentesque ut urna. Aliquam sed nisi nec sapien rutrum gravida. Integer eget est felis."
-
+string = input("input sentecnce. ")
 längst = ""
 längstLängd = 0
 currentWord = ""
