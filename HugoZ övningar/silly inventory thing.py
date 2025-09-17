@@ -29,7 +29,7 @@ try:
 except: 
     print("skriv en sträng! jag vet faktiskt inte hur du skrev in annan data")
     quit()
-
+#double loop to use "break" to restart the loop if a user fed a string value when a integer is needed.
 while inputArtickel != "sluta":
     while inputArtickel != "sluta":
         try: 
