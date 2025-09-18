@@ -1,0 +1,17 @@
+art = input("Artikel: ")
+ant = input("Hur många? ")
+artList = []
+artAnt = []
+
+while art != "sluta":
+    artList.append(art)
+    artAnt.append(ant)
+    
+    art = input("Artikel: ")
+    if art != "sluta":
+        ant = input("Hur många? ")
+
+count = 0
+for x in artList:
+    print(artList[count], ":", artAnt[count], "stycken")
+    count += 1
