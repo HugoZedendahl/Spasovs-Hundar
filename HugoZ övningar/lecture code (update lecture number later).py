@@ -21,3 +21,17 @@ pause(char="-", rows=2, message="hej")
 #   these arguments need to be the last declared
 #   
 
+def power (base, exp):
+    if exp < 0:
+        return 0
+    result = 1
+    for x in range(exp):
+        result = result * base
+    return result
+x = None
+y = None   
+x = power(2,3)
+y = 13* power(3,x)
+
+
+

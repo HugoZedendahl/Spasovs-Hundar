@@ -34,10 +34,10 @@ while inputArtickel != "sluta":
     while inputArtickel != "sluta":
         try: 
             inputArtickelLager = int(input("skriv antal i lager: "))
-            if inputArtickelLager not in inventory:
+            if inputArtickel not in inventory:
                 inventory.update({inputArtickel:inputArtickelLager})
-            elif inputArtickelLager in inventory:
-                inventory[inputArtickel] = inputArtickelLager
+            elif inputArtickel in inventory:
+                inventory[inputArtickel] += inputArtickelLager
             inputArtickel = str(input("skriv in artickel: "))   
         except:
             print("snälla skriv en siffra")
