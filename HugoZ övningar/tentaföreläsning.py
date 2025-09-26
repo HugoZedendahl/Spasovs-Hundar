@@ -1,6 +1,4 @@
 
-
-
 friends = {
     "peter": [0,0],
     "mia": [0,0],
@@ -18,16 +16,10 @@ while name != "sluta":
     if name in friends:
         donation = input("Belopp: ")
         donation = int(donation)
-        temp = friends.get(name)
-        donation += temp[1]
-        friends.update({name:[1,donation]}) 
+        friends.update({name:[1,donation+friends.get(name)[1]]}) 
     else:
         print("Fel, inte inbjuden!")
     name = input("Namn: ")
-
-#print(friends)
-
 for namn, värde in friends.items():
-    temp = friends.get(namn)
-    if temp[0] == 1:
+    if värde[0] == 1:
         print(f"{namn} : {värde[1]}")
