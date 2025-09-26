@@ -20,6 +20,7 @@ while name != "sluta":
     else:
         print("Fel, inte inbjuden!")
     name = input("Namn: ")
+    
 for namn, värde in friends.items():
     if värde[0] == 1:
         print(f"{namn} : {värde[1]}")
