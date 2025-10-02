@@ -1,1 +1,17 @@
+project site: https://itoproj.dsv.su.se/index.php/alla-kallor/
+
+
+source list:
+  -[placeholder]
+
+
+checklist:
+{placeholder} [ ] {link}
+
+
+
+
+
+comments/thoughts/notes
+
 
