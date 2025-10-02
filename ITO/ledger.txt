@@ -7,7 +7,15 @@ source list:
 
 
 checklist:
-{placeholder} [ ] {link}
+
+
+dates:
+  workshop 1 - måndag 6e 14:00 [non defined place]
+  möte 1 - fredag 10e 13:00-13:30 S3
+  möte 2 - torsdag 16e 10:30 - 11:10 S3
+  presentation - onsdag 29e 10:30-11:50 L50
+
+
 
 
 
